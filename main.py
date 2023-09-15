@@ -10,7 +10,7 @@ def menuinteractif():
     print(liste_menu["1"] + "\n" + liste_menu["2"] + "\n" + liste_menu["3"] + "\n" + liste_menu["4"])
     choixdelaliste = input("Choisis une option: ")
     if "1" in choixdelaliste:
-        print("Tu à choisis l'option 1 :)")
+        informationsurpython()
     elif "2" in choixdelaliste:
         print("Tu a choisis l'option 2")
     elif "3" in choixdelaliste:
@@ -22,7 +22,10 @@ def menuinteractif():
     # Vous êtes sur Linux ou macOS
         os.system('clear')
     else:
-        print("Tu n'a choisis aucune des 3 options")
+        print("Tu n'a choisis aucune des 4 options")
+
+def informationsurpython():
+    print("Info sur python")
 
 
 if __name__ == "__main__":
