@@ -25,7 +25,13 @@ def menuinteractif():
         print("Tu n'a choisis aucune des 4 options")
 
 def informationsurpython():
-    print("Info sur python")
+    liste_menu = {
+        "1": "[1] Facilité d'apprentissage : Python est réputé pour sa syntaxe simple et sa lisibilité. Il ressemble presque à du pseudocode, ce qui le rend accessible aux débutants en programmation.",
+        "2": "[2] Polyvalence : Python peut être utilisé pour une variété de tâches, notamment le développement web, l'automatisation de tâches, la science des données, l'apprentissage automatique, l'intelligence artificielle, le développement de jeux, etc.",
+        "3": "[3] Grande communauté : Python bénéficie d'une vaste communauté d'utilisateurs et de développeurs. Il existe une pléthore de ressources en ligne, de modules, de packages et de frameworks disponibles pour aider les programmeurs Python.",
+        "4": "[4] Quitter l'application"
+    }
+    print(liste_menu["1"] + "\n" + liste_menu["2"] + "\n" + liste_menu["3"] + "\n" + liste_menu["4"])
 
 
 if __name__ == "__main__":
